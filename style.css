@@ -1,20 +1,48 @@
 .body {
-  background-color: rgb(146, 255, 255);
+  width: 100%;
+  background-color: gray;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+color: white;
 }
 .header {
   font-size: xx-large;
   color: white;
   background: teal;
   width: 100%;
+  text-align: center;
+}
+h1,h2,h3 {
+  text-align: center;
+  background-color: teal;
+}
+img {
+  width: 50;
+}
+p {
+  text-align: center;
+}
+.tophalf {
+color: gray;
+height: 100%;
+width: 100%;
+padding: 5px;
+}
+.bottomhalf {
+  float: left;
+  width: calc(100%/3);
+  padding: 5px;
+}
+.content {
+  align:center;
+}
+
+.footer {
+  color: wheat
+text-align: center;
+background-color: teal;
 }
 .seo {
   color: gray;
-}
-
-.content {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: white;
-  width: 80%;
-  background-color: lightsteelblue;
 }
